@@ -1,14 +1,14 @@
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import ProductComponent from './components/product/ProductComponent';
+import Product from './components/Product';
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
-      <ProductComponent />
+      <Product />
     </>
   );
 }
