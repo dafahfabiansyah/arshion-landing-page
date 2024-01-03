@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@500&display=swap');
+
+#root {
+  font-family: 'Kreon', serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
 /* #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -3,7 +3,7 @@ import { InstagramLogo, FacebookLogo, TwitterLogo, YoutubeLogo, EnvelopeSimple }
 
 const Footer = () => {
   return (
-    <footer className="w-full h-auto pt-10 bg-gray-700 text-white capitalize">
+    <footer className="w-full h-auto pt-8 bg-[#3D3D3D] text-white capitalize">
       <div className="flex flex-col sm:flex-row justify-between container mx-auto px-4 sm:px-20">
         <div className="max-w-80 mb-6 sm:mb-0 sm:mr-4">
           <h1 className="font-bold py-2 text-xl">come to join</h1>
@@ -44,10 +44,10 @@ const Footer = () => {
           <h1 className="font-bold py-2 text-xl">follow</h1>
           <div className="gap-2 flex pt-1">
             <div className="gap-2 flex pt-1">
-              <InstagramLogo size={32} />
-              <FacebookLogo size={32} />
-              <TwitterLogo size={32} />
-              <YoutubeLogo size={32} />
+              <InstagramLogo size={32} className="hover:text-red-400" />
+              <FacebookLogo size={32} className="hover:text-blue-500" />
+              <TwitterLogo size={32} className="hover:text-blue-600" />
+              <YoutubeLogo size={32} className="hover:text-red-700" />
             </div>
           </div>
         </div>

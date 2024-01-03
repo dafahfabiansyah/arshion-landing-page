@@ -4,7 +4,7 @@ import { Storefront } from '@phosphor-icons/react';
 
 const LocationProduct = () => {
   return (
-    <section className="relative pt-8 pb-20 text-white">
+    <section className="relative pt-8 pb-12 text-white">
       <div className="relative flex flex-col items-center">
         <div className="absolute top-0 right-5 md:right-20 p-4 sm:block hidden">
           <div className="flex items-center p-2">

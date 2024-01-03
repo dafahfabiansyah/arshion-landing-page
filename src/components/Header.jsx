@@ -26,8 +26,11 @@ const Header = () => {
           <p className="mr-6 hidden sm:flex hover:bg-black p-1 hover:text-white rounded-md">women</p>
           <p className="hidden sm:flex hover:bg-black p-1 hover:text-white rounded-md">kids</p>
         </div>
-        <div className="flex ml-auto gap-6">
-          <MagnifyingGlass size={32} /> <Heart size={32} /> <ShoppingCart size={32} /> <User size={32} />
+        <div className="flex ml-auto gap-6 ">
+          <MagnifyingGlass size={38} className=" hover:bg-black p-1 hover:text-white rounded-md transition-all" />
+          <Heart size={38} className=" hover:bg-black p-1 hover:text-white rounded-md transition-all" />
+          <ShoppingCart size={38} className=" hover:bg-black p-1 hover:text-white rounded-md transition-all" />
+          <User size={38} className=" hover:bg-black p-1 hover:text-white rounded-md transition-all" />
         </div>
       </div>
     </header>
