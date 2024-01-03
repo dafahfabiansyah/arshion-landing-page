@@ -3,9 +3,9 @@ import { InstagramLogo, FacebookLogo, TwitterLogo, YoutubeLogo, EnvelopeSimple }
 
 const Footer = () => {
   return (
-    <footer className="w-full h-auto max-h-80 pt-10 bg-gray-700 text-white capitalize">
-      <div className="flex justify-between container mx-auto px-20">
-        <div className="max-w-80">
+    <footer className="w-full h-auto pt-10 bg-gray-700 text-white capitalize">
+      <div className="flex flex-col sm:flex-row justify-between container mx-auto px-4 sm:px-20">
+        <div className="max-w-80 mb-6 sm:mb-0 sm:mr-4">
           <h1 className="font-bold py-2 text-xl">come to join</h1>
           <label className="relative block">
             <span className="sr-only">Search</span>
@@ -23,7 +23,7 @@ const Footer = () => {
             By submitting your email address, you agree to receive marketing emails from Rivly, and accept <span className="underline">our terms & conditions</span> and <span className="underline">privacy policy.</span>
           </p>
         </div>
-        <div>
+        <div className="mb-6 sm:mb-0 sm:max-w-80">
           <h1 className="font-bold py-2 text-xl">about fashion</h1>
           <ul>
             <li className="py-2">information</li>
@@ -31,7 +31,7 @@ const Footer = () => {
             <li className="py-2">partnership</li>
           </ul>
         </div>
-        <div>
+        <div className="mb-6 sm:mb-0 sm:max-w-80">
           <h1 className="font-bold py-2 text-xl">support</h1>
           <ul>
             <li className="py-2">FAQ</li>
@@ -43,10 +43,12 @@ const Footer = () => {
         <div>
           <h1 className="font-bold py-2 text-xl">follow</h1>
           <div className="gap-2 flex pt-1">
-            <InstagramLogo size={32} />
-            <FacebookLogo size={32} />
-            <TwitterLogo size={32} />
-            <YoutubeLogo size={32} />
+            <div className="gap-2 flex pt-1">
+              <InstagramLogo size={32} />
+              <FacebookLogo size={32} />
+              <TwitterLogo size={32} />
+              <YoutubeLogo size={32} />
+            </div>
           </div>
         </div>
       </div>
